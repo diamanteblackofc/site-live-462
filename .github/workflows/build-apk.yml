@@ -32,10 +32,8 @@ jobs:
         run: npx cap sync android
 
       - name: Permissão de execução para Gradle
-        run: chmod +x android/gradlew
-
-      - name: Compilar APK Debug
-        run: cd android && ./gradlew assembleDebug --no-daemon
+- name: Compilar APK Debug
+        run: cd android && gradle assembleDebug --no-daemon
 
       - name: Publicar APK como Artefato
         uses: actions/upload-artifact@v4
