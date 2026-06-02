@@ -32,11 +32,6 @@ jobs:
           npm install @capacitor/core @capacitor/android
           npx cap sync android
 
-      - name: Inicializar Wrapper do Gradle Compatível
-        run: |
-          cd android
-          gradle wrapper --gradle-version 8.2
-
       - name: Depuração de APK do compilador
         run: |
           cd android
