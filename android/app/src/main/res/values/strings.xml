@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Terminal-DiamanteBlack</string>
+    <string name="title_activity_main">Terminal-DiamanteBlack</string>
+    <string name="package_name">br.diamantepink.terminaldiamanteblac</string>
+    <string name="custom_url_scheme">br.diamantepink.terminaldiamanteblac</string>
+</resources>
